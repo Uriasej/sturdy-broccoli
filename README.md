@@ -2,4 +2,4 @@
 unity2d game made by Eden Urias
 
 ## Download the game from my website at [uriasej.tk](https://uriasej.github.io)
-* Domain is currently down.
+* Domain is currently up.
