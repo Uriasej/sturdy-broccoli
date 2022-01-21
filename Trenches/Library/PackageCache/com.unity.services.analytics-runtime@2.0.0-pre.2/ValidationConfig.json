@@ -1,0 +1,10 @@
+{
+	"FileContentKeywordValidation":
+	{
+		"IgnoreFilenames":
+		[
+			"Runtime/Platform/Runtime.cs"
+		]
+	}
+}
+

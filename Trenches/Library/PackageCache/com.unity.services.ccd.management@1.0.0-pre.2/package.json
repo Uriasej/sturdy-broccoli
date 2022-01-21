@@ -1,0 +1,33 @@
+{
+  "name": "com.unity.services.ccd.management",
+  "displayName": "Cloud Content Delivery Management API",
+  "version": "1.0.0-pre.2",
+  "unity": "2019.4",
+  "description": "API SDK Package for communicating with Cloud Content Delivery Management Service",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.services.ccd.management.git",
+    "type": "git",
+    "revision": "fbe91b04b8d5f7da2d6ff9b29ce53dc1caa31e79"
+  },
+  "dependencies": {
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+    "com.unity.modules.unitywebrequestaudio": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.unitywebrequestwww": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.services.ccd.management.tests": "1.0.0-pre.2"
+  },
+  "upmCi": {
+    "footprint": "aaced2360fa0752acb8b5a1047ae56838100e6b0"
+  },
+  "samples": [
+    {
+      "displayName": "Buckets Example Sample",
+      "description": "This is an example of how the CCD Management API SDK could be used to manage buckets within a desired project",
+      "path": "Samples~/Example"
+    }
+  ]
+}

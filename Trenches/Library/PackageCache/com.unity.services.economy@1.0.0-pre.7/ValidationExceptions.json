@@ -1,0 +1,20 @@
+{
+  "ErrorExceptions": [
+    {
+      "ValidationTest": "Manifest Validation",
+      "ExceptionMessage": "In package.json, \"documentationUrl\" can't be used for Unity packages.  It is a features reserved for enterprise customers.  The Unity documentation team will ensure the package's documentation is published in the appropriate fashion",
+      "PackageVersion": "1.0.0-pre.7"
+    },
+    {
+      "ValidationTest": "Path Length Validation",
+      "ExceptionMessage": "Runtime/Generated Internal SDK/com.unity.services.economy.internal/Runtime/Models/PlayerPurchaseAppleappstoreResponseVerificationStore.cs.meta is 142 characters, which is longer than the limit of 140 characters. You must use shorter names.",
+      "PackageVersion": "1.0.0-pre.7"
+    },
+    {
+      "ValidationTest": "Path Length Validation",
+      "ExceptionMessage": "Runtime/Generated Internal SDK/com.unity.services.economy.internal/Runtime/Models/PlayerPurchaseGoogleplaystoreResponseVerificationStore.cs.meta is 144 characters, which is longer than the limit of 140 characters. You must use shorter names.",
+      "PackageVersion": "1.0.0-pre.7"
+    }
+  ],
+  "WarningExceptions": []
+}

@@ -1,0 +1,44 @@
+.project-settings-title {
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.project-settings-section-container {
+    padding: 4px 4px 4px 8px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.project-settings-section-container .sub-title {
+    -unity-font-style: bold;
+}
+
+.project-settings-section-container .title,
+.project-settings-section-container .sub-title {
+    padding-left: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    white-space: normal;
+}
+
+.link-button > .unity-text-element {
+    cursor: link;
+    flex-grow: 0;
+}
+
+.external-link-icon {
+    margin-left: 5px;
+}
+
+.analytics .service-icon {
+    background-image: resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Analytics.png");
+}
+
+.note-tag{
+    align-self:flex-start;
+    margin-bottom:5px;
+    margin-top:5px;
+    white-space:normal;
+    border-radius:2px;
+    padding:2px 5px;
+}

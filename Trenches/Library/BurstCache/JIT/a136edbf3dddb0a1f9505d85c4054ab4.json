@@ -1,0 +1,24 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::GetTempMemoryHandle_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ret) -> void_82e27fe799cd5bc6ee5694dea02c1662"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::IsDefaultValue",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsDefaultValue(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> bool_82e27fe799cd5bc6ee5694dea02c1662"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_82e27fe799cd5bc6ee5694dea02c1662"
+    },
+    {
+      "Name": "Unity.Burst.LowLevel.BurstCompilerService::Log",
+      "FullName": "Unity.Burst.LowLevel.BurstCompilerService.Log(void* userData, Unity.Burst.LowLevel.BurstCompilerService.BurstLogType logType, byte* message, byte* filename, int lineNumber) -> void_82e27fe799cd5bc6ee5694dea02c1662"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message) -> void"
+    }
+  ]
+}

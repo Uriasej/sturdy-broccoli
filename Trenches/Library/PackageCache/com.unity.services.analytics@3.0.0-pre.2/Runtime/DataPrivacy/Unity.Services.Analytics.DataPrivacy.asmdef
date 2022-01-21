@@ -1,0 +1,8 @@
+{
+    "name": "Unity.Services.Analytics.DataPrivacy",
+    "references": ["Unity.ugui", "Unity.Services.Analytics", "Unity.Services.Core", "Unity.Services.Core.Internal"],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

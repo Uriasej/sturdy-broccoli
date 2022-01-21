@@ -1,0 +1,19 @@
+{
+  "name": "com.unity.netcode.adapter.utp",
+  "displayName": "Unity Transport for Netcode for GameObjects",
+  "description": "This package is plugging Unity Transport into Netcode for GameObjects, which is a network transport layer - the low-level interface for sending UDP data",
+  "version": "1.0.0-pre.4",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.unity.netcode.gameobjects": "1.0.0-pre.4",
+    "com.unity.transport": "1.0.0-pre.10"
+  },
+  "upmCi": {
+    "footprint": "d74686128841c7a9ba70b44731a59c630673eb76"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.netcode.gameobjects.git",
+    "type": "git",
+    "revision": "b14204cd059fb90f4a64319824105619f317d591"
+  }
+}

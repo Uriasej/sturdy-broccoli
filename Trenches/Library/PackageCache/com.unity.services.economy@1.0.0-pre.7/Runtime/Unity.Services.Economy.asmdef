@@ -1,0 +1,11 @@
+{
+    "name": "Unity.Services.Economy",
+    "references": [
+        "Unity.RemoteConfig",
+        "Unity.Services.Authentication",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Internal"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
