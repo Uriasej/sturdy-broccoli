@@ -1,2 +1,10 @@
 /UnityPlayer_s.debug filter=lfs diff=lfs merge=lfs -text
 /Linux/LatestDevBuild/UnityPlayer_s.debug filter=lfs diff=lfs merge=lfs -text
+/TestLocalMP/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+/TestLocalMP/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
+/Trenches/Library/PackageCache/com.unity.burst@1.5.5/.Runtime/hostlin/lld filter=lfs diff=lfs merge=lfs -text
+/Trenches/Library/PackageCache/com.unity.burst@1.5.5/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+/Trenches/Library/PackageCache/com.unity.burst@1.5.5/.Runtime/libburst-llvm-11.so filter=lfs diff=lfs merge=lfs -text
+/Trenches/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
+/Bauen/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
+/Opprimi/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
