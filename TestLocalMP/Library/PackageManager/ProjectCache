@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637783703580000000
+      ticks: 637784744930000000
     m_Hash: 536819908
   m_LockFileStatus:
     m_FilePath: /home/edenjudeurias/sturdy-broccoli/TestLocalMP/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637783703580000000
+      ticks: 637784744930000000
     m_Hash: 610622213
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
