@@ -122,6 +122,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21380}
     - Class: 114
+      Script: {instanceID: 21470}
+    - Class: 114
       Script: {instanceID: 21498}
     - Class: 114
       Script: {instanceID: 21510}
@@ -215,6 +217,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21380}
     - Class: 114
+      Script: {instanceID: 21470}
+    - Class: 114
       Script: {instanceID: 21498}
     - Class: 114
       Script: {instanceID: 21510}
@@ -307,6 +311,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7172}
     - Class: 114
       Script: {instanceID: 21380}
+    - Class: 114
+      Script: {instanceID: 21470}
     - Class: 114
       Script: {instanceID: 21498}
     - Class: 114
@@ -445,6 +451,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7172}
     - Class: 114
       Script: {instanceID: 21380}
+    - Class: 114
+      Script: {instanceID: 21470}
     - Class: 114
       Script: {instanceID: 21498}
     - Class: 114
@@ -1359,4 +1367,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level2.unity
   - Assets/Scenes/Level3.unity
   - Assets/Scenes/MainMenu.unity
-  playerPath: /home/edenjudeurias/Builds/TestLocalMP/TestProcessingLinux5.1/5-1.x86_64
+  playerPath: /home/edenjudeurias/Builds/TestLocalMP/Dev3Candidate5.2/5-2.x86_64
