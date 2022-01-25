@@ -8,3 +8,4 @@
 /Trenches/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
 /Bauen/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
 /Opprimi/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
+/Linux/LinuxDev2Build5/UnityPlayer_s.debug filter=lfs diff=lfs merge=lfs -text
