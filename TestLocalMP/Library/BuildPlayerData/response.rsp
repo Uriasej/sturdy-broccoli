@@ -17,6 +17,7 @@
 -a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll"
 -a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll"
 -a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
+-a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
 -a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
 -a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Portable/Newtonsoft.Json.dll"
 -a="/home/edenjudeurias/sturdy-broccoli/TestLocalMP/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"

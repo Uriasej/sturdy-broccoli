@@ -19,4 +19,10 @@ public class NextLevelLogic : MonoBehaviour
     {
         SceneManager.LoadScene(nextLevel);
     }
+
+    void OnGUI()
+    {
+        if (GUI.Button(new Rect(10, 70, 100, 30), "Restart"))
+        SceneManager.LoadScene(currentLevel);
+    }
 }
