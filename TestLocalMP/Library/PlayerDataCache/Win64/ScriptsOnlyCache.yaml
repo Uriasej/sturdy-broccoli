@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -29,6 +30,22 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.PlayerInputManager
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -64,6 +81,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -73,33 +92,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2388}
+      Script: {instanceID: 2382}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 5110}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5176}
     - Class: 114
-      Script: {instanceID: 5280}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 5900}
     - Class: 114
-      Script: {instanceID: 7178}
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 21380}
+    - Class: 114
+      Script: {instanceID: 21470}
+    - Class: 114
+      Script: {instanceID: 21498}
+    - Class: 114
+      Script: {instanceID: 21510}
+    - Class: 114
+      Script: {instanceID: 21524}
+    - Class: 114
+      Script: {instanceID: 21536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -145,6 +176,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -154,33 +187,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2388}
+      Script: {instanceID: 2382}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 5110}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5176}
     - Class: 114
-      Script: {instanceID: 5280}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 5900}
     - Class: 114
-      Script: {instanceID: 7178}
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 21380}
+    - Class: 114
+      Script: {instanceID: 21470}
+    - Class: 114
+      Script: {instanceID: 21498}
+    - Class: 114
+      Script: {instanceID: 21510}
+    - Class: 114
+      Script: {instanceID: 21524}
+    - Class: 114
+      Script: {instanceID: 21536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -226,6 +271,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -235,33 +282,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2388}
+      Script: {instanceID: 2382}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 5110}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5176}
     - Class: 114
-      Script: {instanceID: 5280}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 5900}
     - Class: 114
-      Script: {instanceID: 7178}
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 21380}
+    - Class: 114
+      Script: {instanceID: 21470}
+    - Class: 114
+      Script: {instanceID: 21498}
+    - Class: 114
+      Script: {instanceID: 21510}
+    - Class: 114
+      Script: {instanceID: 21524}
+    - Class: 114
+      Script: {instanceID: 21536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -302,19 +361,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2436}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 5110}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 5900}
     - Class: 114
-      Script: {instanceID: 6542}
+      Script: {instanceID: 6536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -352,6 +411,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -361,33 +422,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2388}
+      Script: {instanceID: 2382}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2510}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 5110}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5176}
     - Class: 114
-      Script: {instanceID: 5280}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 5900}
     - Class: 114
-      Script: {instanceID: 7178}
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 21380}
+    - Class: 114
+      Script: {instanceID: 21470}
+    - Class: 114
+      Script: {instanceID: 21498}
+    - Class: 114
+      Script: {instanceID: 21510}
+    - Class: 114
+      Script: {instanceID: 21524}
+    - Class: 114
+      Script: {instanceID: 21536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1185,6 +1258,108 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
@@ -1192,4 +1367,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level2.unity
   - Assets/Scenes/Level3.unity
   - Assets/Scenes/MainMenu.unity
-  playerPath: /home/edenjudeurias/Builds/TestLocalMP/DevBuild2WindowsGB5/WinDevBuild2GB5/TestLocalMP.exe
+  playerPath: /home/edenjudeurias/Builds/TestLocalMP/Dev3CandidateWin5.2/5-2/TestLocalMP.exe
