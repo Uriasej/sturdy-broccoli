@@ -953,3 +953,35 @@ Received Import Request.
 Start importing Assets/Materials/logo.jpg using Guid(11f3c27eeeed1b4fb87f73795ab916af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753e07a403dedfdcec491d7a8431132f') in 0.180168 seconds 
   Import took 0.192324 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 316.037413 seconds.
+  path: Assets/Materials/16x16Logo.png
+  artifactKey: Guid(0a8c77d28969fc8a4973c873de13a3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/16x16Logo.png using Guid(0a8c77d28969fc8a4973c873de13a3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d889dcd8749b9e06f699146d6641871') in 0.047776 seconds 
+  Import took 0.061924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.138715 seconds.
+  path: Assets/Materials/64x64Logo.png
+  artifactKey: Guid(0ce90996c4fcbbab9a143a05956b7338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/64x64Logo.png using Guid(0ce90996c4fcbbab9a143a05956b7338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e74cdb25beb8bf1b110fcffd0d692a') in 0.052069 seconds 
+  Import took 0.071160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.734104 seconds.
+  path: Assets/Materials/256x256Logo.png
+  artifactKey: Guid(67abfd254076698a99b9bb5f3db69a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/256x256Logo.png using Guid(67abfd254076698a99b9bb5f3db69a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4bf08dd5a8b2d9df5a75250c211ff5') in 0.061507 seconds 
+  Import took 0.070267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.335604 seconds.
+  path: Assets/Materials/1024xLogo.png
+  artifactKey: Guid(5a842471ad8baf1ad8c0a3232555c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/1024xLogo.png using Guid(5a842471ad8baf1ad8c0a3232555c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0873ac29fb88f737f945ba3bf33e632') in 0.065074 seconds 
+  Import took 0.085992 seconds .
+
