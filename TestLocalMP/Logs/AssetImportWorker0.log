@@ -945,3 +945,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1025.449239 seconds.
+  path: Assets/Materials/logo.jpg
+  artifactKey: Guid(11f3c27eeeed1b4fb87f73795ab916af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/logo.jpg using Guid(11f3c27eeeed1b4fb87f73795ab916af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753e07a403dedfdcec491d7a8431132f') in 0.180168 seconds 
+  Import took 0.192324 seconds .
+
