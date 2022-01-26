@@ -209,6 +209,72 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "AndroidPS4",
+                    "id": "1c2961b9-3407-401d-873d-68b2fbb88097",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "62a9a493-71d3-41a1-ad43-b204d1b8eeb6",
+                    "path": "<DualShock4GamepadAndroid>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "4bef8e70-aee7-4894-98e2-a0b5be65950d",
+                    "path": "<DualShock4GamepadAndroid>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "AndroidPS4Alt",
+                    "id": "57d64d43-2722-4608-8a1e-9add76f6645e",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "de6e41f3-7788-4dee-93a7-d4883f20559b",
+                    "path": "<DualShock4GamepadAndroid>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "27501c4f-7c00-4129-9bc0-33e08a84c866",
+                    "path": "<DualShock4GamepadAndroid>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "913ccccd-ac44-4dbf-9f39-75b3a9233fb6",
                     "path": "<Keyboard>/upArrow",
@@ -259,6 +325,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Switch",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcc213a0-2a58-42e8-8e77-3e2816d72ab4",
+                    "path": "<DualShock4GamepadAndroid>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -320,6 +397,17 @@
                 },
                 {
                     "name": "",
+                    "id": "1eabf57a-4a46-4187-8d66-016de5005364",
+                    "path": "<DualShock4GamepadAndroid>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
+                    "action": "Join",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ac92fa84-6c70-485b-b9be-83df03803d4b",
                     "path": "<Keyboard>/r",
                     "interactions": "",
@@ -358,6 +446,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Switch",
+                    "action": "Respawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff0bf813-152c-42d7-b8ec-dd2d49bb79e4",
+                    "path": "<DualShock4GamepadAndroid>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4 Android",
                     "action": "Respawn",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -416,6 +515,17 @@
             "devices": [
                 {
                     "devicePath": "<SwitchProControllerHID>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "PS4 Android",
+            "bindingGroup": "PS4 Android",
+            "devices": [
+                {
+                    "devicePath": "<DualShock4GamepadAndroid>",
                     "isOptional": false,
                     "isOR": false
                 }
