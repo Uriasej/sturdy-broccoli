@@ -147,6 +147,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 1be12c5b-2afc-42c7-8392-236b936a1fc3
     m_ActionName: Player/Join[/Keyboard/w,/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 915f98ec-20b8-48ef-80e9-81fefbf91728
+    m_ActionName: Player/Respawn[/Keyboard/r]
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -168,6 +172,7 @@ MonoBehaviour:
   isJumping: 0
   jumpForce: 0
   moveSpeed: 0
+  canRespawn: 0
   moveVertical: 0
   moveHorizontal: 0
   jump: 0
@@ -214,7 +219,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 10
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
