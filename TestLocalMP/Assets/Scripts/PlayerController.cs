@@ -118,4 +118,8 @@ public class PlayerController : MonoBehaviour
             rb2D.constraints = RigidbodyConstraints2D.FreezePositionY;
         }
     }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        rb2D.constraints = RigidbodyConstraints2D.None;
+    }
 }
