@@ -123,7 +123,7 @@
                 {
                     "name": "negative",
                     "id": "173a48e9-9fef-445c-9fc6-66d865b6aa47",
-                    "path": "<DualShockGamepad>/leftStick/left",
+                    "path": "<DualSenseGamepadHID>/dpad/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "PS4",
@@ -134,7 +134,7 @@
                 {
                     "name": "positive",
                     "id": "d20a71c7-1c77-4de7-8c01-cc602f0655bd",
-                    "path": "<DualShockGamepad>/leftStick/right",
+                    "path": "<DualSenseGamepadHID>/dpad/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "PS4",
@@ -222,7 +222,7 @@
                 {
                     "name": "negative",
                     "id": "62a9a493-71d3-41a1-ad43-b204d1b8eeb6",
-                    "path": "<DualShock4GamepadAndroid>/leftStick/left",
+                    "path": "<DualShock4GamepadAndroid>/leftStick/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "PS4 Android",
@@ -233,7 +233,7 @@
                 {
                     "name": "positive",
                     "id": "4bef8e70-aee7-4894-98e2-a0b5be65950d",
-                    "path": "<DualShock4GamepadAndroid>/leftStick/right",
+                    "path": "<DualShock4GamepadAndroid>/leftStick/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "PS4 Android",
@@ -270,6 +270,39 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "PS4 Android",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "PS4 Alt",
+                    "id": "0fe85671-d16e-4e75-9b3a-bc11e7018d15",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ca8a1f2b-2df1-4538-9a9c-510d2db6f089",
+                    "path": "<DualSenseGamepadHID>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "aab23e29-c007-4354-bc69-2c1211fce90b",
+                    "path": "<DualSenseGamepadHID>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4",
                     "action": "LeftRight",
                     "isComposite": false,
                     "isPartOfComposite": true
