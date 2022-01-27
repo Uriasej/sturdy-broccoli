@@ -121,5 +121,6 @@ public class PlayerController : MonoBehaviour
     void OnCollisionExit2D(Collision2D collision)
     {
         rb2D.constraints = RigidbodyConstraints2D.None;
+        Debug.Log("Untouched another player");
     }
 }
