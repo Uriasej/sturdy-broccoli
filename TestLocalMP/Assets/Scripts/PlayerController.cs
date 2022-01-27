@@ -109,4 +109,13 @@ public class PlayerController : MonoBehaviour
 
         ParticleSystem lavaParticles = GameObject.Find("Lava").GetComponent<ParticleSystem>();
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Touched another player");
+            rb2D.constraints = RigidbodyConstraints2D.FreezePositionY;
+        }
+    }
 }
