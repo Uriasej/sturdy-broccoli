@@ -22,6 +22,8 @@ public class updatePosition : MonoBehaviour
 
     private float distanceFromLavaY;
 
+    public int level;
+
     void Start()
     {
         ball = GameObject.Find("Circle").gameObject;
@@ -35,6 +37,8 @@ public class updatePosition : MonoBehaviour
         lavaY = lavaPos.y;
 
         displayPos = true;
+
+        level = GameObject.Find("Square").GetComponent<NextLevelLogic>().currentLevel;
     }
 
     void Update()

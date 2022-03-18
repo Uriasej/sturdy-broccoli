@@ -8,7 +8,7 @@ using UnityEngine.Advertisements;
 public class NextLevelLogic : MonoBehaviour
 {
 
-    int currentLevel;
+    public int currentLevel;
     int nextLevel;
     void Start()
     {
