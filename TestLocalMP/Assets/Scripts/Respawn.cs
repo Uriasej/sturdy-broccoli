@@ -37,7 +37,7 @@ public class Respawn : MonoBehaviour
 
         else if (collision.tag == "deathBoth")
         {
-            rb2D.AddForce(new Vector3(0f, 15f, 0f), ForceMode2D.Impulse);
+            rb2D.AddForce(new Vector3(0f, 30f, 0f), ForceMode2D.Impulse);
 
             GameObject deathBoth = GameObject.Find("BounceBoth");
 

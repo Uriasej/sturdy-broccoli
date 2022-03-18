@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
 
         else if (collision.tag == "deathBoth")
         {
-            rb2D.AddForce(new Vector2(0f, 10000f), ForceMode2D.Impulse);
+            rb2D.AddForce(new Vector2(0f, 200f), ForceMode2D.Impulse);
 
             GameObject deathBoth = GameObject.Find("BounceBoth");
 
